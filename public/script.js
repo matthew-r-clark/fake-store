@@ -8,6 +8,8 @@ $(function() {
     return arr;
   }
 
+  $('#location').text(location.href);
+
   let $categories = $('#category-list');
   let $products = $('#product-list');
   let $productListTitle = $('#product-list-title');
